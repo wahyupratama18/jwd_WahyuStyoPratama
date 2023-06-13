@@ -1,0 +1,21 @@
+@import 'iziToast/dist/css/iziToast';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.apexcharts-legend-text, .apexcharts-menu-item {
+    @apply dark:!text-slate-100;
+}
+
+.apexcharts-menu-item {
+    @apply hover:dark:!bg-slate-800;
+}
+
+.apexcharts-menu {
+    @apply dark:bg-slate-900;
+}
